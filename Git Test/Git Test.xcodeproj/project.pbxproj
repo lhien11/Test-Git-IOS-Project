@@ -14,6 +14,7 @@
 		28DEBBD11A01719100FED16A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28DEBBD01A01719100FED16A /* Images.xcassets */; };
 		28DEBBD41A01719100FED16A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28DEBBD21A01719100FED16A /* LaunchScreen.xib */; };
 		28DEBBE01A01719200FED16A /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DEBBDF1A01719200FED16A /* Git_TestTests.m */; };
+		28DEBBEB1A01734100FED16A /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DEBBEA1A01734100FED16A /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		28DEBBD91A01719200FED16A /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28DEBBDE1A01719200FED16A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28DEBBDF1A01719200FED16A /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		28DEBBE91A01734100FED16A /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		28DEBBEA1A01734100FED16A /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		28DEBBB71A01719100FED16A = {
 			isa = PBXGroup;
 			children = (
+				28DEBBE91A01734100FED16A /* Test.h */,
+				28DEBBEA1A01734100FED16A /* Test.m */,
 				28DEBBC21A01719100FED16A /* Git Test */,
 				28DEBBDC1A01719200FED16A /* Git TestTests */,
 				28DEBBC11A01719100FED16A /* Products */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28DEBBCC1A01719100FED16A /* ViewController.m in Sources */,
+				28DEBBEB1A01734100FED16A /* Test.m in Sources */,
 				28DEBBC91A01719100FED16A /* AppDelegate.m in Sources */,
 				28DEBBC61A01719100FED16A /* main.m in Sources */,
 			);
